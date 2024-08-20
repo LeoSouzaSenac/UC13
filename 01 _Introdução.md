@@ -52,6 +52,11 @@ Aqui estão os principais conceitos por trás de uma RESTful API:
 RESTful APIs são amplamente utilizadas porque são simples de entender e usar. 
 Elas aproveitam os métodos HTTP que já conhecemos, tornando a comunicação entre cliente e servidor eficiente e organizada.
 
+## APIs e API RESTful - diferenças
+
+API é um termo amplo que se refere a qualquer interface que permite a comunicação entre diferentes softwares.
+RESTful API é um tipo específico de API que segue os princípios do REST, tornando-a especialmente adequada para aplicações web devido à sua simplicidade e escalabilidade.
+
 ## Exemplos de Uso de APIs no Dia a Dia 🌍
 
 As APIs estão em quase todos os lugares da nossa vida digital!
