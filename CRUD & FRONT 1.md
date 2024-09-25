@@ -250,12 +250,10 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
     if (response.ok) {
         messageElement.textContent = 'Usuário registrado com sucesso!';
         setTimeout(() => {
-            window.location.href = 'index.html';
+            window.location.href = 'login.html';
         }, 2000);
     } else {
-        const error
-
-Message = await response.text();
+        const errorMessage = await response.text();
         messageElement.textContent = errorMessage;
     }
 });
