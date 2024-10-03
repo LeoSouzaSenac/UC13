@@ -168,14 +168,6 @@ Comparação de hashes: Em vez de comparar as senhas diretamente, o bcrypt compa
 Em resumo, ao usar compare, o bcrypt gera um novo hash a partir da senha que você está testando e compara esse novo hash com o que está armazenado. Se coincidem, a senha está correta; se não, a senha é inválida.
 
 
-
-
-
-
-Você disse:
-mas e se dois usuarios usarem a mesma senha?
-O ChatGPT disse:
-ChatGPT
 Se dois usuários usarem a mesma senha, o bcrypt ainda gera hashes diferentes para cada um. Isso acontece por causa do salt. Vamos entender como isso funciona:
 
 Salt: O bcrypt, ao criar o hash de uma senha, gera um valor aleatório chamado salt. Esse salt é único para cada hash e é adicionado à senha antes de aplicar o algoritmo de hashing. Isso significa que, mesmo que duas pessoas usem a mesma senha, o salt gerado será diferente para cada uma.
