@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Usuário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bem-vindo, <span id="userEmail"></span></h2>
+        <form id="updateForm">
+            <label for="newEmail">Novo Email:</label>
+            <input type="email" id="newEmail" name="newEmail">
+            <label for="newPassword">Nova Senha:</label>
+            <input type="password" id="newPassword" name="newPassword">
+            <button type="submit">Atualizar</button>
+        </form>
+        <button id="deleteUser">Deletar Conta</button>
+        <div id="message"></div>
+    </div>
+
+    <script src="js/user.js"></script>
+</body>
+</html>
