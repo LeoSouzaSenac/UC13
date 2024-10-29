@@ -87,7 +87,4 @@ Cada equipe deverá implementar as seguintes funcionalidades:
    - Adicione validação para garantir que todos os campos obrigatórios estejam preenchidos antes de salvar os dados.
    - Exibir mensagens de erro ou de sucesso nas operações CRUD para o usuário.
 
-5. **Relatório Final e Documentação**  
-   - Cada equipe deverá entregar um breve relatório descrevendo a lógica do jogo, a implementação das funcionalidades CRUD e a estrutura de dados.
-   - Inclua comentários no código para explicar a funcionalidade de cada parte.
 
