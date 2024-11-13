@@ -1,6 +1,6 @@
 # Guia Passo a Passo: Criando um Servidor em PHP com CRUD para MySQL
 
-Este guia mostrará como criar um arquivo PHP que se conecta ao banco de dados MySQL para realizar operações CRUD (Create, Read, Update, Delete). Explicaremos cada linha do código para que fique fácil de entender, especialmente se você já tem alguma experiência com JavaScript.
+Este guia mostrará como criar um arquivo PHP que se conecta ao banco de dados MySQL para realizar operações CRUD (Create, Read, Update, Delete). Cada linha do código vai ser explicada para que fique fácil de entender, especialmente se você já tem alguma experiência com JavaScript.
 
 ## Pré-requisitos
 
